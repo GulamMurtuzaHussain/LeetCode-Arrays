@@ -21,7 +21,7 @@ class Solution {
         return consistent;
     }
 }
-
+ 
 /*
 class Solution {
     // This function checks if a word only contains allowed characters

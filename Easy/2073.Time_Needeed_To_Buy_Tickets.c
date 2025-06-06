@@ -4,7 +4,7 @@ int timeRequiredToBuy(int *tickets, int ticketsSize, int k)
     while(tickets[k]>0)
     {
         for(int i=0; i<ticketsSize; i++)
-        {
+        { 
             if(tickets[k]==0)
             {
                 return time;

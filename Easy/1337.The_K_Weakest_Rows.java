@@ -10,7 +10,7 @@ class Solution {
                 if(mat[i][j] == 1) count++;
             }
             soldiers[i] = count;
-        }
+         }
 
         Integer[] indices = new Integer[mat.length];
         for(int i=0;i<mat.length;i++){

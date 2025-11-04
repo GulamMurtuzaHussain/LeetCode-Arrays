@@ -7,7 +7,7 @@ class Solution {
         }
         return len;
     }
-
+ 
     
 
     public List<String> subdomainVisits(String[] cpdomains) {

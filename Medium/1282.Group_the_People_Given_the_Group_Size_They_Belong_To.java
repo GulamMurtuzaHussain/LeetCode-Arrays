@@ -5,7 +5,7 @@ class Solution {
         // TC : O(n)
         
         HashMap<Integer,ArrayList<Integer>> people = new HashMap<>();
-
+ 
         for(int i=0;i<groupSizes.length;i++){
             if(!people.containsKey(groupSizes[i])){
                 people.put(groupSizes[i],new ArrayList<Integer>());

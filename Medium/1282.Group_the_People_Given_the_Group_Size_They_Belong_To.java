@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Solution {
-    public List<List<Integer>> groupThePeople(int[] groupSizes) {
+    public List<List<Integer>> groupThePeople(int[] groupSizes) { 
         // TC : O(n)
         
         HashMap<Integer,ArrayList<Integer>> people = new HashMap<>();

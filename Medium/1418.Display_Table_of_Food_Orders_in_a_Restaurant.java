@@ -3,7 +3,7 @@ class Solution {
         List<String> foods = new ArrayList<>();
         for(int i=0;i<orders.size();i++){
             if(foods.indexOf(orders.get(i).get(2)) == -1) foods.add(orders.get(i).get(2));
-        }
+        } 
         Collections.sort(foods);
         // System.out.println(foods);
         

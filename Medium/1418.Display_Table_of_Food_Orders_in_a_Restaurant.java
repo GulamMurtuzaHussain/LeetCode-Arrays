@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<orders.size();i++){
             if(foods.indexOf(orders.get(i).get(2)) == -1) foods.add(orders.get(i).get(2));
         } 
-        Collections.sort(foods);
+        Collections.sort(foods); 
         // System.out.println(foods);
         
         Map<Integer,List<String>> map = new TreeMap<>();

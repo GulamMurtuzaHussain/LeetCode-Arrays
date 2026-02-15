@@ -4,7 +4,7 @@ class Solution {
     public List<List<Integer>> groupThePeople(int[] groupSizes) { 
         // TC : O(n)
          
-        HashMap<Integer,ArrayList<Integer>> people = new HashMap<>();
+        HashMap<Integer,ArrayList<Integer>> people = new HashMap<>(); 
  
         for(int i=0;i<groupSizes.length;i++){
             if(!people.containsKey(groupSizes[i])){

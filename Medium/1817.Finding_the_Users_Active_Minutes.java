@@ -5,7 +5,7 @@ class Solution {
         for(int i=0;i<logs.length;i++)
         {
             if(!map.containsKey(logs[i][0])){
-                Integer temp = logs[i][0];
+                Integer temp = logs[i][0]; 
                 map.put(temp,new HashSet<>());
             }
             map.get(logs[i][0]).add(logs[i][1]);

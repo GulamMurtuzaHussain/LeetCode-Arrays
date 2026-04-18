@@ -3,7 +3,7 @@ class CustomStack {
         int[] stack;
         int top = 0, MaxSize =0 ;
     public CustomStack(int maxSize) {
-        stack = new int[maxSize];
+        stack = new int[maxSize]; 
         MaxSize = maxSize;
     }
     

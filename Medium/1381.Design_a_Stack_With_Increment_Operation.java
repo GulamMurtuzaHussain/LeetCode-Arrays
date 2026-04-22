@@ -5,7 +5,7 @@ class CustomStack {
     public CustomStack(int maxSize) {
         stack = new int[maxSize]; 
         MaxSize = maxSize;
-    }
+    } 
     
     public void push(int x) {
         if(top >= MaxSize) return ;

@@ -5,7 +5,7 @@ class BrowserHistory {
 
     public BrowserHistory(String homepage) {
         stack.add(homepage);
-    }
+    } 
     
     public void visit(String url) {
         stack.add(url);

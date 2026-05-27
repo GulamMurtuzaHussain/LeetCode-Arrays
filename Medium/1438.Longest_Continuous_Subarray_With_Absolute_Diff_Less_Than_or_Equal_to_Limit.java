@@ -7,7 +7,7 @@ class Solution {
 
         int left = 0;
         int ans = 0;
-
+ 
         for (int right = 0; right < nums.length; right++) {
             // add nums[right] to maxDeque
             while (!maxDeque.isEmpty() && maxDeque.peekLast() < nums[right]) {

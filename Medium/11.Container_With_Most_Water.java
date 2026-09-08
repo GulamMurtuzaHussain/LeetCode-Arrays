@@ -4,7 +4,7 @@ int maxArea(int* height, int heightSize) {
 
     while(one<two){
     distance = two-one;
-     if(height[one]<height[two]){
+     if(height[one]<height[two]){ 
         Height=height[one];
      }
      else{

@@ -1,7 +1,7 @@
 class Solution { 
     public int isEquals(int[] target, List<Integer> stack){
         if(stack.size() <= target.length){
-        for(int i=0;i<stack.size();i++){
+        for(int i=0;i<stack.size();i++){  
             if(stack.get(i) != target[i]) return 0;
         }
         }

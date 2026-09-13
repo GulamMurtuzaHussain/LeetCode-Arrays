@@ -3,7 +3,7 @@ class Solution {
         if(stack.size() <= target.length){
         for(int i=0;i<stack.size();i++){  
             if(stack.get(i) != target[i]) return 0;
-        }
+        } 
         }
         if(stack.size() != target.length) return -1;
         return 1;

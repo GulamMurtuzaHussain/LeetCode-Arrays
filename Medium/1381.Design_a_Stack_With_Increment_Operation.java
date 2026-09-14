@@ -4,7 +4,7 @@ class CustomStack {
         int top = 0, MaxSize =0 ;
     public CustomStack(int maxSize) {
         stack = new int[maxSize];  
-        MaxSize = maxSize;
+        MaxSize = maxSize; 
     } 
     
     public void push(int x) {

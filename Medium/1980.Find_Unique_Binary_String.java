@@ -1,6 +1,6 @@
 class Solution {
     public String findDifferentBinaryString(String[] nums) {
-        if (nums.length == 1 && nums[0].equals("0"))
+        if (nums.length == 1 && nums[0].equals("0")) 
             return "1";
         HashSet<String> unique = new HashSet<>();
 

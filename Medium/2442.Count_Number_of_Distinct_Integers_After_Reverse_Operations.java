@@ -6,7 +6,7 @@ class Solution {
             reversed = (reversed*10) + rem;
             num /= 10;
         }
-        return reversed;
+        return reversed; 
     }
     public int countDistinctIntegers(int[] nums) {
         HashSet<Integer> unique = new HashSet<>();

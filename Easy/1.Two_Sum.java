@@ -1,7 +1,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         // this problem has 4 approaches 1. Nested Loops 2. Sort + 2 pointers 3. HashMap 2 passes 4. HashMap 1 pass
-        
+         
         int[] ans = new int[2];
         for(int i=0;i<nums.length;i++){
             for(int j=i+1;j<nums.length;j++){

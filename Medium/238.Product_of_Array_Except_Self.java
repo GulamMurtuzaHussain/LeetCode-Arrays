@@ -4,7 +4,7 @@ class Solution {
         int n = nums.length;
         int[] prefix = new int[n];
         int[] suffix = new int[n];
-        int[] res = new int[n];
+        int[] res = new int[n]; 
 
         prefix[0] = 1;
         for(int i=1;i<n;i++)

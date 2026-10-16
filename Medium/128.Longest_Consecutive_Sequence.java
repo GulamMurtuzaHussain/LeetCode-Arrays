@@ -5,7 +5,7 @@ class Solution {
         Arrays.sort(nums); 
 
         int len = 1 , max = 0;
-        for(int i=1;i<nums.length;i++){
+        for(int i=1;i<nums.length;i++){ 
             if(nums[i-1] == nums[i]) continue;
             if(nums[i-1] + 1 == nums[i]) len++;
             else{

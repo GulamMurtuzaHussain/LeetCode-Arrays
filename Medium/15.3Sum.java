@@ -1,7 +1,27 @@
-import java.util.Arrays;
-
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+
+        HashSet<List<Integer>> res = new HashSet<>();
+        for(int i=0;i<nums.length-2;i++){
+            int left = i+1, right = nums.length-1;
+            while(left < right){
+                int sum = nums[left] + nums[right] + nums[i];
+                if(sum == 0){
+                    res.add(new ArrayList<>(List.of(nums[i],nums[left],nums[right])));
+                    left++; right--;
+                }
+                else if(sum > 0) right--;
+                else if(sum<0) left++;
+            }
+        }
+
+        return new ArrayList<>(res);
+    }
+}
+
+/*
+
         Arrays.sort(nums);
         List<List<Integer>> answer = new ArrayList<>();
 
@@ -28,5 +48,6 @@ class Solution {
 
 
         return answer;
-    }
-}
+
+
+ */

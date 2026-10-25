@@ -3,7 +3,7 @@ class Solution {
         Arrays.sort(nums);
  
         HashSet<List<Integer>> res = new HashSet<>();
-        for(int i=0;i<nums.length-2;i++){
+        for(int i=0;i<nums.length-2;i++){ 
             int left = i+1, right = nums.length-1; 
             while(left < right){
                 int sum = nums[left] + nums[right] + nums[i];

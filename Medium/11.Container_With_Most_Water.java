@@ -1,4 +1,4 @@
-// int maxArea(int* height, int heightSize) {
+ // int maxArea(int* height, int heightSize) {
 //     int max=0,distance=0,Height=0;
 //     int one=0,two=heightSize-1;
 

@@ -1,6 +1,6 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-       HashMap<Character, Integer> freq = new HashMap<>();
+       HashMap<Character, Integer> freq = new HashMap<>(); 
        HashSet<Character> row_set = new HashSet<>();
        HashSet<Character> col_set = new HashSet<>();
         // System.out.println(board[0][2]);

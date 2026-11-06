@@ -7,7 +7,7 @@ class Solution {
        for(int row=0;row<9;row+=3){
            for(int col=0;col<9;col+=3){
                 // System.out.println(board[row][col]);
-               for(int j=row;j<row+3;j++){
+               for(int j=row;j<row+3;j++){ 
                 for(int k=col;k<col+3;k++){
                     //    System.out.print(board[j][k] + " ");
                     freq.put(board[j][k], freq.getOrDefault(board[j][k],0)+1);
